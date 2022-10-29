@@ -1,10 +1,10 @@
 ﻿# 第3次練習-練習-PC3
 >
->學號：1234567 
+>學號：109111104
 ><br />
->姓名：王小明 
+>姓名：李彥賓
 ><br />
->作業撰寫時間：180 (mins，包含程式撰寫時間)
+>作業撰寫時間：10 (mins，包含程式撰寫時間)
 ><br />
 >最後撰寫文件日期：2022/10/12
 >
@@ -31,14 +31,13 @@ public void mt_getResult(){
 若要於內文中標示部分.aspx檔，則使用以下標籤` ```html 程式碼 ``` `，
 下段程式碼則為使用後結果：
 
-```html
-<%@ Page Language="C#" AutoEventWireup="true" ...>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Test.aspx.cs" Inherits="_111_1PC3.Test" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" ...>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
 <body>
@@ -48,7 +47,6 @@ public void mt_getResult(){
     </form>
 </body>
 </html>
-```
 
 
 ## 個人認為完成作業須具備觀念
