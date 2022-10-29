@@ -22,11 +22,19 @@
 還需使用語法` ```csharp 程式碼 ``` `，
 下段程式碼則為使用後結果：
 
-```csharp
-public void mt_getResult(){
-    ...
+    public partial class Test : System.Web.UI.Page
+    {
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            int i_Clothes = 7;
+            int i_Hat = 8;
+            int i_Pants = 9;
+            int i_Sum = 0;
+            i_Sum = (i_Clothes * 300) + (i_Hat * 350) + (i_Pants * 400);
+            Response.Write(i_Sum);
+        }
+    }
 }
-```
 
 若要於內文中標示部分.aspx檔，則使用以下標籤` ```html 程式碼 ``` `，
 下段程式碼則為使用後結果：
@@ -54,3 +62,4 @@ public void mt_getResult(){
 開始寫說明，需要說明本次作業個人覺得需學會那些觀念 (需寫成文章，需最少50字，
 並且文內不得有你、我、他三種文字)
 
+了解變數運用，除了題目要求的變數外，還需建立一個變數專門使用。
